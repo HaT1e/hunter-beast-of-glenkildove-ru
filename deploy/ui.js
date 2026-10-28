@@ -283,6 +283,7 @@ function showMenu() {
     // this will be hidden on desktop web, but visible elsewhere
     changeTitle(document.title);
     changeAuthor(document.getElementById("author").innerText);
+    printParagraph("Неофициальный перевод: [Evil Dream]");
     if (window.isSteamApp) {
       printParagraph("Нужна помощь? Напишите нам: " + getSupportEmail() + ".");
     }
